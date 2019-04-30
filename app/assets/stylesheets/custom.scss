@@ -95,6 +95,18 @@ table {
   text-align: center;  
 }
 
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
+
 th {
   vertical-align: middle;
   text-align: center;  
